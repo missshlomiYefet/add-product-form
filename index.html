@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Add product · TechNest Computers</title>
+<style>
+  :root{--navy:#1F4E79;--blue:#2E75B6;--sky:#9DC3E6;--bg:#F2F4F7;--card:#fff;--line:#D9DEE5;--muted:#5B6675;--text:#1B2430;font-family:"Segoe UI",Roboto,Arial,sans-serif}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);font-size:14px;line-height:1.4}
+  .topbar{background:var(--navy);color:#fff;padding:12px 24px}
+  .topbar h1{margin:0;font-size:18px;font-weight:600}
+  .topbar .sub{font-size:12px;color:var(--sky)}
+  main{max-width:760px;margin:0 auto;padding:20px 24px 40px;display:flex;flex-direction:column;gap:12px}
+  .note{font-size:12px;color:var(--muted);margin:0}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:8px}
+  iframe{display:block;width:100%;height:85vh;min-height:600px;border:0;border-radius:6px;background:transparent}
+</style>
+</head>
+<body>
+<header class="topbar">
+  <h1>Add a new product</h1>
+  <span class="sub">TechNest Computers · adds a row to the product list</span>
+</header>
+<main>
+  <p class="note">Fill in the details and press Submit. The SKU must be unique. After submitting, press “Refresh data” on the inventory dashboard to see the new product.</p>
+  <div class="card">
+    <iframe
+      class="airtable-embed"
+      src="https://airtable.com/embed/app53eQcO0CH0UNYN/shrAOKsB8lUVGE8qa"
+      frameborder="0"
+      title="Add product form"></iframe>
+  </div>
+</main>
+</body>
+</html>
